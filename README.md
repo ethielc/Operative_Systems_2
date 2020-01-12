@@ -25,6 +25,7 @@
 ## 3. Pregunta 2:
 - Se le pedira que ingrese un numero entero positivo que indique primeramente el largo del arreglo.
 - A continuacion, deberá ingresar los valores que tendrá el arreglo uno por uno.
+- Los métodos se encuentran comentados para entender lo que hacen :).
 - Vea la magia del programa.
 
 <a name="contact"></a>
