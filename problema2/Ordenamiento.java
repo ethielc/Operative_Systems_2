@@ -10,7 +10,8 @@ public class Ordenamiento extends Thread {
         - int[] arreglo: Arreglo o sub-arreglo con los valores enteros a ordenar.
         - int bajo: Inicio del arreglo o sub-arreglo.
         - int alto: Final del arreglo o sub-arreglo.
-    Descripcion: Constructor de la clase Ordenamiento.
+    Descripcion:
+        - Constructor de la clase Ordenamiento.
     Retorno: No tiene retorno.
     */
     Ordenamiento(int[] arreglo, int bajo, int alto) {
