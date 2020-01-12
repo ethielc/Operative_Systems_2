@@ -2,8 +2,9 @@ package problema2;
 import java.util.concurrent.TimeUnit;
 import java.util.Scanner;
 
-public class Problema2 {public static void main(final String[] args) {
-
+public class Problema2 {
+    public static void main(final String[] args) {
+        
         final Scanner input = new Scanner(System.in);
         System.out.println("Inserte la cantidad de numeros que tendra el arreglo: ");
         final int largo = input.nextInt();
