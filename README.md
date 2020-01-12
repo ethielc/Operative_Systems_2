@@ -23,7 +23,9 @@
 
 <a name="p2"></a>
 ## 3. Pregunta 2:
-- 
+- Se le pedira que ingrese un numero entero positivo que indique primeramente el largo del arreglo.
+- A continuacion, deberá ingresar los valores que tendrá el arreglo uno por uno.
+- Vea la magia del programa.
 
 <a name="contact"></a>
 ## 4. Correos:
