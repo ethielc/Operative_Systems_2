@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;  
 
@@ -31,14 +32,16 @@ public class Padre{
         return list;
 	}
 
-	
 	public static void main(String[] args) {
 		List<String> texto = new ArrayList<String>();
 		List<Hijo> Lista_hijos = new ArrayList<Hijo>();
 		texto = Leertexto();
 		
 		int n = Integer.parseInt(texto.get(0));
-		int x = 1;
+		System.out.println("Funciones ingresadas!");
+		Scanner input = new Scanner(System.in);
+		System.out.println("Ingrese valor para x: ");
+		int x = input.nextInt();
 
 		//String funcion = texto.get(1);
         //Thread father = Thread.currentThread(); 
@@ -50,9 +53,7 @@ public class Padre{
             child.setName("Hijo "+i);
             Lista_hijos.add(child);
         }
-        //System.out.println(n);
         for(int i=n-1; i>-1; i--) {
-        	//System.out.println(Lista_hijos.get(i).getName());
             Lista_hijos.get(i).start();
             try {
             	for(int j=n-1;j>i-1;j--) {
