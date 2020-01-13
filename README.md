@@ -23,7 +23,11 @@
 
 <a name="p2"></a>
 ## 3. Pregunta 2:
-- 
+- Se le pedira que ingrese un numero entero positivo que indique primeramente el largo del arreglo.
+- A continuacion, deberá ingresar los valores que tendrá el arreglo uno por uno.
+- Los métodos se encuentran comentados para entender lo que hacen :).
+- Presencie la magia de las hebras trabajando.
+- El beneficio de la utilización de hebras es que cada partición que se cree del arreglo o sub-arreglo actual, podrá ser comenzado a trabajar inmediatamente por una de las hebras en vez de esperar que alguna mitad sea resuelta, haciendo la resolución más eficiente.
 
 <a name="contact"></a>
 ## 4. Correos:
