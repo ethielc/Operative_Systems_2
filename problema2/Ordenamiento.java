@@ -21,11 +21,11 @@ public class Ordenamiento extends Thread {
     }
     /*
     public void run()
-    Parámetros: No tiene parámetros.
+    Parametros: No tiene parámetros.
     Descripcion:
         - Encargado de crear las hebras para resolver el problema.
-        - Se utiliza un pivote (partición) que va dejando todos los numeros mayores que él a la derecha y los menores a la izquierda.s
-        - Con eso se crean dos particiones del arreglo, las cuales serán resueltas por las hebras (una para cada partición) hasta tener sub-arreglos de largo 1 (soluciones triviales).
+        - Se utiliza un pivote (particion) que va dejando todos los numeros mayores que el a la derecha y los menores a la izquierda.s
+        - Con eso se crean dos particiones del arreglo, las cuales serán resueltas por las hebras (una para cada particion) hasta tener sub-arreglos de largo 1 (soluciones triviales).
     Retorno: No tiene retorno, pero modifica el arreglo original.
     */
     public void run() {
