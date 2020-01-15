@@ -5,12 +5,11 @@ JC = javac
 		$(JC) $(JFLAGS) $*.java
 
 CLASSES = \
-		Problema2.java \
-		Ordenamiento.java 
+	Problema2.java \
+	Ordenamiento.java 
 
 default: classes
 
 classes: $(CLASSES:.java=.class)
 
-clean:
-		$(RM) *.class
+clean: $(RM) *.class
