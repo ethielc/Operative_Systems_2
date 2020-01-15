@@ -13,7 +13,7 @@
 
 <a name="p1"></a>
 ## 2. Pregunta 1:
-- El archivo input se llama "funciones.txt".
+- El archivo input se llama "funciones.txt", el cual se debe modificar con las funciones que quiere que resuelva el programa.
 - Las funciones deben ordenarse de modo que sus funciones anidadas se definan abajo, no arriba.
 - El programa solo acepta 1 variable incógnita, la cual es "x".
 - El input por pantalla corresponde al valor "x" de la función.
