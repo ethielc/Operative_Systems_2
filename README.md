@@ -17,9 +17,9 @@
 - Las funciones deben ordenarse de modo que sus funciones anidadas se definan abajo, no arriba.
 - El programa solo acepta 1 variable incógnita, la cual es "x".
 - El input por pantalla corresponde al valor "x" de la función.
-- La clase "Padre" contiene el main, el resto se ejecuta normal.
 - Se creó un objeto "Hijo" por cada funcion, cada una se maneja con un Thread diferente.
 - El programa se ejecuta 1 vez por valor x, si quiere cambiar el valor de x, debe ejecutar denuevo.
+* El makefile se compila con "make" y se ejecuta con "java Padre" (dentro de la carpeta).
 
 <a name="p2"></a>
 ## 3. Pregunta 2:
