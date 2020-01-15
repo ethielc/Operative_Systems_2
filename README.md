@@ -19,7 +19,7 @@
 - El input por pantalla corresponde al valor "x" de la función.
 - Se creó un objeto "Hijo" por cada funcion, cada una se maneja con un Thread diferente.
 - El programa se ejecuta 1 vez por valor x, si quiere cambiar el valor de x, debe ejecutar denuevo.
-* El makefile se compila con "make" y se ejecuta con "java Padre" (dentro de la carpeta).
+* El makefile se compila con "make" y se ejecuta con "java Padre" (omitir los 3 warnings).
 
 <a name="p2"></a>
 ## 3. Pregunta 2:
