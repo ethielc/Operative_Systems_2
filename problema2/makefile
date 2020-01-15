@@ -5,8 +5,8 @@ JC = javac
 		$(JC) $(JFLAGS) $*.java
 
 CLASSES = \
-		Padre.java \
-		Hijo.java 
+		Problema2.java \
+		Ordenamiento.java 
 
 default: classes
 

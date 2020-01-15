@@ -6,7 +6,7 @@ public class Ordenamiento extends Thread {
     int alto;
     /*
     Ordenamiento(int[] arreglo, int bajo, int alto)
-    Parámetros:
+    Parametros:
         - int[] arreglo: Arreglo o sub-arreglo con los valores enteros a ordenar.
         - int bajo: Inicio del arreglo o sub-arreglo.
         - int alto: Final del arreglo o sub-arreglo.
@@ -21,11 +21,11 @@ public class Ordenamiento extends Thread {
     }
     /*
     public void run()
-    Parametros: No tiene parámetros.
+    Parametros: No tiene parametros.
     Descripcion:
         - Encargado de crear las hebras para resolver el problema.
-        - Se utiliza un pivote (particion) que va dejando todos los numeros mayores que el a la derecha y los menores a la izquierda.s
-        - Con eso se crean dos particiones del arreglo, las cuales serán resueltas por las hebras (una para cada particion) hasta tener sub-arreglos de largo 1 (soluciones triviales).
+        - Se utiliza un pivote (particion) que va dejando todos los numeros mayores que el a la derecha y los menores a la izquierda.
+        - Con eso se crean dos particiones del arreglo, las cuales seran resueltas por las hebras (una para cada particion) hasta tener sub-arreglos de largo 1 (soluciones triviales).
     Retorno: No tiene retorno, pero modifica el arreglo original.
     */
     public void run() {
