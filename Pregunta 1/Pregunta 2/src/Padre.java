@@ -6,6 +6,13 @@ import java.util.List;
 
 public class Padre{
 	
+	/*
+	List<String> Leertexto()
+    Parámetros: No tiene parámetros.
+    Descripcion:
+        - Crea una lista del texto "funciones.txt".
+    Retorno: Retorna la lista.
+    */
 	static List<String> Leertexto() {
 		List<String> list = new ArrayList<String>();
         File file = new File("funciones.txt");
@@ -42,11 +49,6 @@ public class Padre{
 		Scanner input = new Scanner(System.in);
 		System.out.println("Ingrese valor para x: ");
 		int x = input.nextInt();
-
-		//String funcion = texto.get(1);
-        //Thread father = Thread.currentThread(); 
-        //father.setName("Padre");
-        //System.out.println("Father thread name: " + father.getName()+" /funcion: "+funcion);
         
         for(int i = 0; i<n ; i++) {
             Hijo child= new Hijo(texto.get(i+1),x);
