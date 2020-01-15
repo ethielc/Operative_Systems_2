@@ -5,7 +5,7 @@ jar: classes
 
 
 classes: dir
-	javac -sourcepath problema2/ -d build/classes problema2/*.java
+	javac -sourcepath src/ -d build/classes src/problema2/*.java
 
 dir:
 	if [ ! -d build/classes ]; then mkdir -p build/classes; fi
