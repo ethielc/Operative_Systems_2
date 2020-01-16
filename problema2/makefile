@@ -1,16 +1,14 @@
-JFLAGS = -g
-JC = javac
-.SUFFIXES: .java .class
-.java.class:
-		$(JC) $(JFLAGS) $*.java
+run: jar
 
-CLASSES = \
-		Problema2.java \
-		Ordenamiento.java 
+jar: classes
+	jar cfm Problema2.jar manifest.mf -C build/classes .
 
-default: classes
 
-classes: $(CLASSES:.java=.class)
+classes: dir
+	javac -sourcepath src/ -d build/classes src/problema2/*.java
 
+dir:
+	if [ ! -d build/classes ]; then mkdir -p build/classes; fi
+	if [ ! -d build/jar ]; then mkdir -p build/jar; fi
 clean:
-		$(RM) *.class
+	if [ -d build ]; then rm build -R; fi

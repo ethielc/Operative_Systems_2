@@ -19,7 +19,7 @@
 - El input por pantalla corresponde al valor "x" de la función.
 - Se creó un objeto "Hijo" por cada funcion, cada una se maneja con un Thread diferente.
 - El programa se ejecuta 1 vez por valor x, si quiere cambiar el valor de x, debe ejecutar denuevo.
-* El makefile se compila con "make" y se ejecuta con "java Padre" (omitir los 3 warnings).
+* El makefile se compila con "make" y se ejecuta con "java -jar Problema1.jar" (omitir los 3 warnings).
 
 <a name="p2"></a>
 ## 3. Pregunta 2:
@@ -28,6 +28,7 @@
 - Los métodos se encuentran comentados para entender lo que hacen :).
 - Presencie la magia de las hebras trabajando.
 - El beneficio de la utilización de hebras es que cada partición que se cree del arreglo o sub-arreglo actual, podrá ser comenzado a trabajar inmediatamente por una de las hebras en vez de esperar que alguna mitad sea resuelta, haciendo la resolución más eficiente.
+* El makefile se compila con "make" y se ejecuta con "java -jar Problema2.jar".
 
 <a name="contact"></a>
 ## 4. Correos:
