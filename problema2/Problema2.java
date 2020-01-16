@@ -21,7 +21,9 @@ public class Problema2 {
             System.out.print(arreglo[pos]);
         }
         System.out.print("]\n");
-        final Ordenamiento xd = new Ordenamiento(arreglo, 0, largo - 1);
+        Ordenamiento xd = new Ordenamiento(arreglo, 0, largo - 1);
+        //            Hijo child= new Hijo(texto.get(i+1),x);
+
         xd.start();
         try {
             xd.join();
