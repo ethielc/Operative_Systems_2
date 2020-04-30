@@ -8,8 +8,8 @@
 
 <a name="integrant"></a>
 ## 1. Integrantes:
-- Rodrigo Cayazaya rol:201773538-4
-- Ethiel Carmona rol:201773533-3
+- Rodrigo Cayazaya, 201773538-4
+- Ethiel Carmona, 201773533-3
 
 <a name="p1"></a>
 ## 2. Pregunta 1:
